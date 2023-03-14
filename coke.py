@@ -14,11 +14,11 @@ while amount_due > 0:
     match insert_coin:
         case 25 | 10 | 5:
             amount_due -= insert_coin 
-            print(amount_due)
+            print("Amount Due: ",amount_due)
             continue
         case _:
             continue
-print(amount_due)
+print("Amount Due: ",amount_due)
 
     
 
