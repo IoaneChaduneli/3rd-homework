@@ -22,4 +22,9 @@ fruits = {
 
 }
 
-print(f'Calories:  {fruits[input("items: ").title()]}') 
+item = input("Item: ").title()
+
+if item in fruits:
+    print(f'Calories: {fruits[item]}')
+else:
+    print("it is not in the list")
